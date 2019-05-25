@@ -1,0 +1,76 @@
+
+# apka powinna konwertowac wszystkie litery na male, i wywalac polskie krzaczki
+
+# Header to ang/pol nazwa cwiczenia, w liscie wszystkie nazwy pod jakimi mozna je spotkac
+Exercises definitions:
+  - Squats/Przysiady:
+    - przysiady
+    - przysiad
+    - przysiady waskie
+  - Front squats/Przysiady ze sztangą z przodu:
+    - przysiady przednie
+    - przysiady przod
+  - Cranes/Żuraw:
+    - zurawie
+    - żurawie
+    - żuraw
+    - zuraw
+  - Pullup/Podciąganie nachwyt:
+    - podciaganie nach
+    - podciaganie
+    - podciaganie nachwytem
+  - Chinup/Podciąganie podchwyt:
+    - podciaganie pod
+    - podciaganie podchwyt
+    - podciaganie podchwytem
+    - podciaganie bic
+  - Bench press/Wyciskanie sztangi leżąc:
+    - wyciskanie
+    - wyciskanie lezac
+    - wyciskanie sztangi
+    - wyciskanie sztangi lezac
+    - wyciskanie plaska
+    - wyciskanie plaskie
+    - wyciskanie na plaskiej
+  - Pompki:
+    - pompki
+  - Wyciskanie żołnierskie:
+    - wyciskanie zolnierskie
+  - Deadlift/Martwy ciąg:
+    - MC
+    - deadlift
+    - martwy
+    - martwy ciag
+    - martwy ciag klasyczny
+  - Deadlift sumo/Martwy ciąg sumo:
+    - MC sumo
+    - martwy sumo
+    - martwy ciag sumo
+  - Deadlift straight legs/Martwy ciąg na prostych nogach:
+    - martwy ciag na prostych
+    - martwy ciag na prostych nogach
+
+
+Trainings:
+  - gym:
+    date: 12.9.2018
+    exercises:
+    - Przysiady: [ 40, 60, 80/5, 89/4]
+
+  - gym:
+    date: 2.9.2018
+    comment: Goodluck
+    exercises:
+    - Przysiady:
+       - 40
+       - 60
+       - 80/10
+       - 90/4
+       - "było ok"   # ostatni wpis to komentarz o cwiczeniu
+
+  - gym:
+    date: 12.9.2018
+    exercises:
+    - Zurawie: [ 40, 60, 80/5, 90/3]
+    - Mostki
+    - Wyciskanie sztanga skosn
