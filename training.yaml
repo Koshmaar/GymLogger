@@ -1,0 +1,26 @@
+
+# Sample processed trainings file
+# It uses exercise names stored in exercises.yaml
+
+Trainings:
+  - gym:
+    date: 12.9.2018
+    exercises:
+    - Przysiady: [ 40, 60, 80/5, 89/4]
+
+  - gym:
+    date: 2.9.2018
+    comment: Goodluck
+    exercises:
+    - Przysiady:
+       - 40
+       - 60
+       - 80/10
+       - 90/4
+       - "was ok"   # last entry is comment about whole exercise
+
+  - gym:
+    date: 12.9.2018
+    exercises:
+    - Zurawie: [ 40, 60, 80/5, 90/3]
+    - mc: [ 70, 80, 90 ]

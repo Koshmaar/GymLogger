@@ -1,7 +1,7 @@
 
-# apka powinna konwertowac wszystkie litery na male, i wywalac polskie krzaczki
+# Header is main english/polish name of exercise
+# in the list are all alternative (polish) names of exercises
 
-# Header to ang/pol nazwa cwiczenia, w liscie wszystkie nazwy pod jakimi mozna je spotkac
 Exercises definitions:
   - Squats/Przysiady:
     - przysiady
@@ -32,7 +32,7 @@ Exercises definitions:
     - wyciskanie plaska
     - wyciskanie plaskie
     - wyciskanie na plaskiej
-  - Pompki:
+  - Pompki/Pushup:
     - pompki
   - Wyciskanie żołnierskie:
     - wyciskanie zolnierskie
@@ -50,27 +50,3 @@ Exercises definitions:
     - martwy ciag na prostych
     - martwy ciag na prostych nogach
 
-
-Trainings:
-  - gym:
-    date: 12.9.2018
-    exercises:
-    - Przysiady: [ 40, 60, 80/5, 89/4]
-
-  - gym:
-    date: 2.9.2018
-    comment: Goodluck
-    exercises:
-    - Przysiady:
-       - 40
-       - 60
-       - 80/10
-       - 90/4
-       - "było ok"   # ostatni wpis to komentarz o cwiczeniu
-
-  - gym:
-    date: 12.9.2018
-    exercises:
-    - Zurawie: [ 40, 60, 80/5, 90/3]
-    - Mostki
-    - Wyciskanie sztanga skosn

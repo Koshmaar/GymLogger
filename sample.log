@@ -1,12 +1,4 @@
 
-""" Functions that help to parse quite free-form text file, and save it as yaml,
- that will be interpreted by load_trainings_file()
-
-# todo: try out https://textx.github.io/Arpeggio/stable/
-
-
-Syntax cases mixed inside, that have to be taken into account by one grammar:
-
 2007-10-10
     Przysiad: 10 (35)
     Podciąganie na drążku: ~5
@@ -145,30 +137,13 @@ Podciąganie podchwyt 10, 9, 7
 Wyciskanie zolnierskie 20/12, 30/10, 30/
 Zurawie
 
----------- Syntax that has to be manually fixed in file:
++++ 2019
 
-1 nozne 7, 7.5 /7, 10/
-Jefferson 40/10, 65/
-
-
-"""
-
-# grammar in BNF kinda:
-
-training_header="<*>DATE<*>  COMMENT <*>"
-after_training_header="COMMENT"
-
-exercise="<NAME>\s(<REPETITIONS> <SEPARATOR> )* "   # todo: for last repetition, separator is not needed
-name="<string>"
-
-repetitions="(WEIGHT/TIMES | TIMES | +WEIGHT) <MULTIPLIER>"
-
-weight="FLOAT"
-times="INT|INT\s+\s<after_short_break>"
-after_short_break="INT"
-
-separator = (",|space")
-
-multiplier = "x\s<NUMBER>"
-
-additional_weight = "+<NUMBER>(kg)"
+23.2
+Wyciskanie 40/10, 60/10, 70/3, 80/1, 85/1, 90/1, 95/0.7
+Wyciskanie skośna h 15/12, 20/10, 25/8
+Brama 20
+Przenoszenie 16, 20
+Wyciskanie zolnierskie 20/10, 30/10, 40/5
+Odwrócone rozpietki 8/10, 9/10, 10/10
+Podciaganie 8, 8,
